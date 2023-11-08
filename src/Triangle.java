@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +11,7 @@ public class Triangle {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
         }
 
