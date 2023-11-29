@@ -21,7 +21,8 @@ public class Percobaan2_21 {
         int bilangan = sc.nextInt();
         System.out.print("Pangkat: ");
         int pangkat = sc.nextInt();
-        
+
+        System.out.print("HitungPangkat(" + bilangan + "," + pangkat + ") " + "dicetak " );
         System.out.println(hitungPangkat(bilangan, pangkat));
         sc.close();
     }
