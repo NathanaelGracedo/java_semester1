@@ -20,9 +20,13 @@ public class doWhileCuti21 {
                     jatahCuti -= jumlahHari;
                     System.out.println("Sisa jatah cuti: " + jatahCuti );
                 } else {
-                    System.out.println("Sisa jatah cuti anda tidak mencukupi");
+                    System.out.println("Sisa jatah cuti anda tidak mencukupi,\napakah anda ingin mengisi ulang (y/n)? ");
+                    Konfirmasi = sc.next();
+                    if (!Konfirmasi.equalsIgnoreCase("y"))
                     break;
                 }
+            } else {
+                break;
             }
         } while (jatahCuti > 0 );
 
