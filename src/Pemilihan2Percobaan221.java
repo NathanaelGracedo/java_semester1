@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Pemilihan2Percobaan221 {
     public static void main(String[] args) {
-        Scanner input05 = new Scanner(System.in);
+        Scanner input21 = new Scanner(System.in);
         int totalSudut, sudut1, sudut2, sudut3;
 
         System.out.println("Masukkan Sudut 1 : ");
-        sudut1 = input05.nextInt();
+        sudut1 = input21.nextInt();
         System.out.println("Masukkan Sudut 2 : ");
-        sudut2 = input05.nextInt();
+        sudut2 = input21.nextInt();
         System.out.println("Masukkan Sudut 3 : ");
-        sudut3 = input05.nextInt();
+        sudut3 = input21.nextInt();
 
         totalSudut = sudut1 + sudut2 + sudut3;
 
@@ -27,6 +27,6 @@ public class Pemilihan2Percobaan221 {
             System.out.println("Bukan Segitiga");
         }
 
-        input05.close();
+        input21.close();
     }
 }

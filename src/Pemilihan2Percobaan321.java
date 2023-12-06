@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Pemilihan2Percobaan321 {
     public static void main(String[] args) {
-        Scanner no05 = new Scanner(System.in);
+        Scanner input21 = new Scanner(System.in);
         String kategori;
         int penghasilan, gajiBersih;
         double pajak = 0;
 
         System.out.println("Masukkan Kategori : ");
-        kategori = no05.nextLine();
+        kategori = input21.nextLine();
         System.out.println("Masukkan Besar Gaji : ");
-        penghasilan = no05.nextInt();
+        penghasilan = input21.nextInt();
 
     if (kategori.equalsIgnoreCase("Pekerja")){
         if( penghasilan <= 2000000)
@@ -34,6 +34,6 @@ public class Pemilihan2Percobaan321 {
         System.out.println("Kategori Salah");
         
 
-        no05.close();
+        input21.close();
     }
 }

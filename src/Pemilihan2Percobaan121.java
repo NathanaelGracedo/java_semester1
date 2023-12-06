@@ -4,11 +4,9 @@ public class Pemilihan2Percobaan121 {
        Scanner input21 = new Scanner(System.in);
        int tahun;
        
-       //input
        System.out.print("Masukkan Tahun : ");
        tahun= input21.nextInt();
 
-       //condition
        if((tahun % 4) == 0){
         if ((tahun % 100) != 0){
             System.out.println("Tahun "+ tahun +" adalah tahun kabisat");
